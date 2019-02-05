@@ -2,6 +2,7 @@
 
 RELEASE_NAME=v0.1-$(date +%Y%m%d_%H%M%S)
 RELEASE_MODULES="luci luci-app-adblock libustream-mbedtls udpxy luci-app-ddns luci-app-sqm omcproxy"
+
 echo "Begin build ${RELEASE_NAME} with modules ${RELEASE_MODULES}"
 	
 wget https://downloads.openwrt.org/snapshots/targets/ramips/mt7621/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64.tar.xz
